@@ -1,0 +1,23 @@
+initailize
+=========================================
+npm install
+cordova platform add android
+
+
+To run on emulator 
+ ==========================================
+ ng build --prod --aot --base-href=./
+
+
+ cordova build android
+
+
+ cordova emulate android
+ ==========================================
+
+
+To run build apk
+===========================================
+ng build --prod --aot --base-href=./
+cordova build android --release --buildConfig
+
